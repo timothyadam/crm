@@ -19,6 +19,7 @@
     <modules>
         <module>gateway</module>
         <module>common</module>
+        <module>auth</module>
     </modules>
 
 
@@ -169,11 +170,11 @@
                 <version>${spring-data-commons.version}</version>
             </dependency>
             <!--JWT(Json Web Token)登录支持-->
-            <dependency>
-                <groupId>io.jsonwebtoken</groupId>
-                <artifactId>jjwt</artifactId>
-            <version>${jjwt.version}</version>
-            </dependency>
+<!--            <dependency>-->
+<!--                <groupId>io.jsonwebtoken</groupId>-->
+<!--                <artifactId>jjwt</artifactId>-->
+<!--            <version>${jjwt.version}</version>-->
+<!--            </dependency>-->
 
             <!--JWT(Json Web Token)登录支持-->
             <dependency>
